@@ -10,7 +10,7 @@ require_once("./mailer/PHPMailer-master/class.smtp.php");
 require_once("mailsender.php");
 
 //Max time out
-ini_set('max_execution_time', 10);
+ini_set('max_execution_time', 500);
 
 echo "starting....";
 $data = $_POST['JSON'];
